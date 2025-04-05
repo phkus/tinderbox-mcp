@@ -114,3 +114,4 @@ MIT
 Feel free to contribute here or by sending me feedback on the Tinderbox forums (username: pkus).
 
 This is basically just a server that executes AppleScript. It can therefore be adapted to do anything else that is scriptable on MacOS.
+# tinderbox-mcp
