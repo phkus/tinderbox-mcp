@@ -1,5 +1,5 @@
 on run argv
-	tell application "Cere"
+	tell application id "Cere"
 		try
 
 			set attributeName to ""

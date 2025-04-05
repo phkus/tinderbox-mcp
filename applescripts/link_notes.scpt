@@ -1,5 +1,5 @@
 on linkFromNoteToNote(typeName, fromNote, toNote)
-	tell application "Cere"
+	tell application id "Cere"
 		try
 			set strType to typeName
 			set strID to value of (attribute "ID" of toNote)
@@ -12,7 +12,7 @@ on linkFromNoteToNote(typeName, fromNote, toNote)
 end linkFromNoteToNote
 
 on run argv
-	tell application "Cere"
+	tell application id "Cere"
 		try
 			
 			set sourcePath to ""
