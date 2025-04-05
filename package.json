@@ -1,0 +1,24 @@
+{
+  "name": "tinderbox-mcp",
+  "version": "0.1.0",
+  "description": "A model context protocol server for interacting with the knowledge management software Tinderbox",
+  "main": "index.js",
+  "bin": {
+    "tinderbox-mcp": "./build/index.js"
+  },
+  "scripts": {
+	  "build": "tsc",
+	  "start": "node build/index.js ./applescripts"
+  },
+  "keywords": [],
+  "author": "Philipp Kuster",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.11",
+    "typescript": "^5.8.2"
+  }
+}
