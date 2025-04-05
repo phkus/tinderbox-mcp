@@ -48,12 +48,6 @@ Run the server with:
 npm run start
 ```
 
-Or specify a custom scripts directory:
-
-```bash
-node build/index.js /path/to/your/scripts
-```
-
 ## Using with Claude Desktop
 
 1. Add the following configuration to the config file of the Claude Desktop app (located at `~/Library/Application Support/Claude/claude_desktop_config.json`):
