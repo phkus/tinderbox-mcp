@@ -1,5 +1,5 @@
 on linkFromNoteToNote(typeName, fromNote, toNote)
-	tell application "Tinderbox 9"
+	tell application "Cere"
 		try
 			set strType to typeName
 			set strID to value of (attribute "ID" of toNote)
@@ -12,7 +12,7 @@ on linkFromNoteToNote(typeName, fromNote, toNote)
 end linkFromNoteToNote
 
 on run argv
-	tell application "Tinderbox 9"
+	tell application "Cere"
 		try
 			
 			set sourcePath to ""

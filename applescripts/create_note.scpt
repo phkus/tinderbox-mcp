@@ -1,5 +1,5 @@
 on run argv
-  tell application "Tinderbox 9"
+  tell application "Cere"
     try
       set theTitle to ""
       set theText to ""
