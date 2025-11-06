@@ -637,4 +637,4 @@ if __name__ == "__main__":
     print(f"  http://{SERVER_HOST}:{SERVER_PORT}/mcp", file=sys.stderr)
     print("", file=sys.stderr)
 
-    mcp.run(transport="streamable_http")
+    mcp.run(transport="http")
