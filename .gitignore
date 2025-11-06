@@ -138,3 +138,26 @@ dist
 .yarn/install-state.gz
 .pnp.*
 .DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Keep applescripts
+!applescripts/*.scpt
