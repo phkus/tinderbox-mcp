@@ -16,7 +16,7 @@ from typing import Optional
 
 from dotenv import load_dotenv
 from pydantic import BaseModel, Field, ConfigDict
-from mcp.server.fastmcp import FastMCP
+from fastmcp import FastMCP
 
 # Load environment variables
 load_dotenv()
