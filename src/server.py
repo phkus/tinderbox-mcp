@@ -31,9 +31,9 @@ SERVER_HOST = os.getenv("SERVER_HOST", "localhost")
 GITHUB_CLIENT_ID = os.getenv("GITHUB_CLIENT_ID", "")
 GITHUB_CLIENT_SECRET = os.getenv("GITHUB_CLIENT_SECRET", "")
 
-# Initialize FastMCP server with GitHub OAuth
+# Initialize FastMCP server with host and port configuration
 # Note: OAuth configuration will be applied when server starts
-mcp = FastMCP("tinderbox_mcp")
+mcp = FastMCP("tinderbox_mcp", host=SERVER_HOST, port=SERVER_PORT)
 
 # Configure GitHub OAuth for the server
 # This will be used for authentication when running with HTTP transport
@@ -637,4 +637,4 @@ if __name__ == "__main__":
     print(f"  http://{SERVER_HOST}:{SERVER_PORT}/mcp", file=sys.stderr)
     print("", file=sys.stderr)
 
-    mcp.run(transport="streamable_http", port=SERVER_PORT, host=SERVER_HOST)
+    mcp.run(transport="streamable_http")
